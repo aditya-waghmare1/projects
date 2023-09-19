@@ -1,0 +1,346 @@
+REM   Script: pract no 5
+REM   5
+
+CREATE TABLE CUSTOMERS   
+(  
+  
+	first_name VARCHAR (255) ,  
+	last_name VARCHAR (255) ,  
+	phone VARCHAR (25),  
+	email VARCHAR (255) ,  
+	street VARCHAR (255),  
+	city VARCHAR (50),  
+	state VARCHAR (25),  
+	zip_code VARCHAR (5)  
+) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Debra','Burks',NULL,'debra.burks@yahoo.com','9273 Thorne Ave. ','Orchard Park','NY',14127) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Kasha','Todd',NULL,'kasha.todd@yahoo.com','910 Vine Street ','Campbell','CA',95008) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Tameka','Fisher',NULL,'tameka.fisher@aol.com','769C Honey Creek St. ','Redondo Beach','CA',90278) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Daryl','Spence',NULL,'daryl.spence@aol.com','988 Pearl Lane ','Uniondale','NY',11553) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Charolette','Rice','(916) 381-6003','charolette.rice@msn.com','107 River Dr. ','Sacramento','CA',95820) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Lyndsey','Bean',NULL,'lyndsey.bean@hotmail.com','769 West Road ','Fairport','NY',14450) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Latasha','Hays','(716) 986-3359','latasha.hays@hotmail.com','7014 Manor Station Rd. ','Buffalo','NY',14215) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Jacquline','Duncan',NULL,'jacquline.duncan@yahoo.com','15 Brown St. ','Jackson Heights','NY',11372) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Genoveva','Baldwin',NULL,'genoveva.baldwin@msn.com','8550 Spruce Drive ','Port Washington','NY',11050) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Pamelia','Newman',NULL,'pamelia.newman@gmail.com','476 Chestnut Ave. ','Monroe','NY',10950) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Deshawn','Mendoza',NULL,'deshawn.mendoza@yahoo.com','8790 Cobblestone Street ','Monsey','NY',10952) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Robby','Sykes','(516) 583-7761','robby.sykes@hotmail.com','486 Rock Maple Street ','Hempstead','NY',11550) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Lashawn','Ortiz',NULL,'lashawn.ortiz@msn.com','27 Washington Rd. ','Longview','TX',75604) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Garry','Espinoza',NULL,'garry.espinoza@hotmail.com','7858 Rockaway Court ','Forney','TX',75126) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Linnie','Branch',NULL,'linnie.branch@gmail.com','314 South Columbia Ave. ','Plattsburgh','NY',12901) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Emmitt','Sanchez','(212) 945-8823','emmitt.sanchez@hotmail.com','461 Squaw Creek Road ','New York','NY',10002) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Caren','Stephens',NULL,'caren.stephens@msn.com','914 Brook St. ','Scarsdale','NY',10583) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Georgetta','Hardin',NULL,'georgetta.hardin@aol.com','474 Chapel Dr. ','Canandaigua','NY',14424) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Lizzette','Stein',NULL,'lizzette.stein@yahoo.com','19 Green Hill Lane ','Orchard Park','NY',14127) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Aleta','Shepard',NULL,'aleta.shepard@aol.com','684 Howard St. ','Sugar Land','TX',77478) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Tobie','Little',NULL,'tobie.little@gmail.com','10 Silver Spear Dr. ','Victoria','TX',77904) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Adelle','Larsen',NULL,'adelle.larsen@gmail.com','683 West Kirkland Dr. ','East Northport','NY',11731) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Kaylee','English',NULL,'kaylee.english@msn.com','8786 Fulton Rd. ','Hollis','NY',11423) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Corene','Wall',NULL,'corene.wall@msn.com','9601 Ocean Rd. ','Atwater','CA',95301) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Regenia','Vaughan',NULL,'regenia.vaughan@gmail.com','44 Stonybrook Street ','Mahopac','NY',10541) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Theo','Reese','(562) 215-2907','theo.reese@gmail.com','8755 W. Wild Horse St. ','Long Beach','NY',11561) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Santos','Valencia',NULL,'santos.valencia@yahoo.com','7479 Carpenter Street ','Sunnyside','NY',11104) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Jeanice','Frost',NULL,'jeanice.frost@hotmail.com','76 Devon Lane ','Ossining','NY',10562) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Syreeta','Hendricks',NULL,'syreeta.hendricks@msn.com','193 Spruce Road ','Mahopac','NY',10541) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Jamaal','Albert',NULL,'jamaal.albert@gmail.com','853 Stonybrook Street ','Torrance','CA',90505) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Williemae','Holloway','(510) 246-8375','williemae.holloway@msn.com','69 Cypress St. ','Oakland','CA',94603) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Araceli','Golden',NULL,'araceli.golden@msn.com','12 Ridgeview Ave. ','Fullerton','CA',92831) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Deloris','Burke',NULL,'deloris.burke@hotmail.com','895 Edgemont Drive ','Palos Verdes Peninsula','CA',90274) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Brittney','Woodward',NULL,'brittney.woodward@aol.com','960 River St. ','East Northport','NY',11731) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Guillermina','Noble',NULL,'guillermina.noble@msn.com','6 Del Monte Lane ','Baldwinsville','NY',13027) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Bernita','Mcdaniel',NULL,'bernita.mcdaniel@hotmail.com','2 Peg Shop Ave. ','Liverpool','NY',13090) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Melia','Brady',NULL,'melia.brady@gmail.com','907 Shirley Rd. ','Maspeth','NY',11378) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Zelma','Browning',NULL,'zelma.browning@aol.com','296 Second Street ','Astoria','NY',11102) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Janetta','Aguirre','(717) 670-2634','janetta.aguirre@aol.com','214 Second Court ','Lancaster','NY',14086) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Ronna','Butler',NULL,'ronna.butler@gmail.com','9438 Plymouth Court ','Encino','CA',91316) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Kathie','Freeman',NULL,'kathie.freeman@msn.com','667 Temple Dr. ','Queensbury','NY',12804) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Tangela','Quinn',NULL,'tangela.quinn@aol.com','4 S. Purple Finch Road ','Richmond Hill','NY',11418) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Mozelle','Carter','(281) 489-9656','mozelle.carter@aol.com','895 Chestnut Ave. ','Houston','TX',77016) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Onita','Johns',NULL,'onita.johns@msn.com','32 Glen Creek Lane ','Elmont','NY',11003) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Bennett','Armstrong',NULL,'bennett.armstrong@aol.com','688 Walnut Street ','Bethpage','NY',11714) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Monika','Berg',NULL,'monika.berg@gmail.com','369 Vernon Dr. ','Encino','CA',91316) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Bridgette','Guerra',NULL,'bridgette.guerra@hotmail.com','9982 Manor Drive ','San Lorenzo','CA',94580) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Cesar','Jackson',NULL,'cesar.jackson@gmail.com','8068 N. Griffin Ave. ','Liverpool','NY',13090) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Caroll','Hays',NULL,'caroll.hays@yahoo.com','9381 Wrangler St. ','Fairport','NY',14450) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Cleotilde','Booth',NULL,'cleotilde.booth@gmail.com','17 Corona St. ','Sugar Land','TX',77478) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Gertrud','Rhodes',NULL,'gertrud.rhodes@aol.com','9961 Meadowbrook Street ','Merrick','NY',11566) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Tu','Ramirez',NULL,'tu.ramirez@hotmail.com','24 W. Courtland Street ','East Elmhurst','NY',11369) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Saturnina','Garner',NULL,'saturnina.garner@gmail.com','8538 Fairground St. ','Glendora','CA',91740) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Fran','Yang',NULL,'fran.yang@hotmail.com','440 Pearl St. ','Utica','NY',13501) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Diana','Guerra',NULL,'diana.guerra@hotmail.com','45 Chapel Ave. ','Merrick','NY',11566) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Lolita','Mosley','(281) 363-3309','lolita.mosley@hotmail.com','376 S. High Ridge St. ','Houston','TX',77016) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Pamala','Henry',NULL,'pamala.henry@aol.com','197 Bridgeton Ave. ','Bronx','NY',10451) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Damien','Dorsey',NULL,'damien.dorsey@yahoo.com','161 Old York Street ','Central Islip','NY',11722) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Latasha','Stanley',NULL,'latasha.stanley@gmail.com','8068 Fordham Drive ','Rockville Centre','NY',11570) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Neil','Mccall',NULL,'neil.mccall@gmail.com','7476 Oakland Dr. ','San Carlos','CA',94070) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Elinore','Aguilar',NULL,'elinore.aguilar@msn.com','9766 Rockcrest Ave. ','San Angelo','TX',76901) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Alica','Hunter',NULL,'alica.hunter@hotmail.com','8 San Juan Drive ','East Elmhurst','NY',11369) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Tenisha','Lyons',NULL,'tenisha.lyons@aol.com','78 E. Rock Creek Street ','Amityville','NY',11701) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Bobbie','Foster',NULL,'bobbie.foster@yahoo.com','988 Pineknoll Ave. ','Desoto','TX',75115) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Kanesha','Vega',NULL,'kanesha.vega@gmail.com','771 E. Oxford Drive ','Rome','NY',13440) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Lorrie','Becker',NULL,'lorrie.becker@yahoo.com','19 North Court ','Garland','TX',75043) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Tommie','Melton','(916) 802-2952','tommie.melton@gmail.com','8 West Old York St. ','Sacramento','CA',95820) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Jayne','Kirkland',NULL,'jayne.kirkland@hotmail.com','7800 Second Lane ','Rowlett','TX',75088) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Katelin','Kennedy',NULL,'katelin.kennedy@gmail.com','286 Myrtle Lane ','Rocklin','CA',95677) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Tomasa','Carson',NULL,'tomasa.carson@aol.com','10 Clark Avenue ','East Elmhurst','NY',11369) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Takako','Casey',NULL,'takako.casey@aol.com','7548 Court Lane ','Bronx','NY',10451) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Petronila','Norris',NULL,'petronila.norris@aol.com','72 South Marshall Lane ','South El Monte','CA',91733) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Melanie','Hayes',NULL,'melanie.hayes@msn.com','5 N. Hall Dr. ','Liverpool','NY',13090) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Georgeann','Waller',NULL,'georgeann.waller@yahoo.com','9797 Bald Hill Ave. ','North Tonawanda','NY',14120) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Abby','Gamble',NULL,'abby.gamble@aol.com','60 Myers Dr. ','Amityville','NY',11701) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Parker','Prince',NULL,'parker.prince@hotmail.com','21 Sulphur Springs Drive ','Port Jefferson Station','NY',11776) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Keri','Bridges',NULL,'keri.bridges@gmail.com','8504 Brickell Ave. ','Richardson','TX',75080) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Chi','Goff',NULL,'chi.goff@aol.com','3 W. Glen Ridge Avenue ','Palos Verdes Peninsula','CA',90274) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Ashanti','Parks',NULL,'ashanti.parks@hotmail.com','846 N. Helen St. ','Baldwin','NY',11510) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Sarai','Mckee','(716) 912-8110','sarai.mckee@msn.com','641 Glenwood Avenue ','Buffalo','NY',14215) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Zina','Bonner',NULL,'zina.bonner@hotmail.com','9312 8th Street ','San Lorenzo','CA',94580) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Lizzie','Joyner',NULL,'lizzie.joyner@msn.com','8541 Roberts St. ','Coachella','CA',92236) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Tiesha','Daniel',NULL,'tiesha.daniel@yahoo.com','6 West Bohemia Lane ','Scarsdale','NY',10583) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Armand','Whitehead',NULL,'armand.whitehead@hotmail.com','639 Harvey St. ','Lindenhurst','NY',11757) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Teofila','Fischer',NULL,'teofila.fischer@aol.com','1 West Brickyard St. ','Huntington Station','NY',11746) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Lissa','Vargas',NULL,'lissa.vargas@yahoo.com','517 Victoria Ave. ','Oswego','NY',13126) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Yan','Mcgowan',NULL,'yan.mcgowan@msn.com','8960 Newport Ave. ','Duarte','CA',91010) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Titus','Bullock',NULL,'titus.bullock@gmail.com','29 Oxford Avenue ','Hollis','NY',11423) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Arvilla','Osborn',NULL,'arvilla.osborn@gmail.com','60 Acacia Lane ','Upland','CA',91784) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Marjorie','Logan',NULL,'marjorie.logan@msn.com','95 Grandrose St. ','Franklin Square','NY',11010) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Marvin','Mullins','(619) 635-2027','marvin.mullins@aol.com','7489 Redwood Drive ','San Diego','CA',92111) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Tena','Cruz',NULL,'tena.cruz@yahoo.com','1 South St. ','Farmingdale','NY',11735) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Corrina','Sawyer','(248) 370-1364','corrina.sawyer@yahoo.com','95 Briarwood Lane ','Troy','NY',12180) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Sharyn','Hopkins',NULL,'sharyn.hopkins@hotmail.com','4 South Temple Ave. ','Baldwinsville','NY',13027) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Letitia','Franco',NULL,'letitia.franco@aol.com','607 Lakeview Drive ','Saratoga Springs','NY',12866) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Floretta','Higgins',NULL,'floretta.higgins@hotmail.com','870 Lilac Dr. ','Bayside','NY',11361) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Louanne','Martin',NULL,'louanne.martin@hotmail.com','1 Campfire Ave. ','Yuba City','CA',95993) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Violet','Valenzuela',NULL,'violet.valenzuela@msn.com','8668 Piper Street ','Plattsburgh','NY',12901) 
+;
+
+INSERT INTO CUSTOMERS(first_name, last_name, phone, email, street, city, state, zip_code) VALUES('Carie','Kidd',NULL,'carie.kidd@yahoo.com','6 East Clinton Street ','Monroe','NY',10950) 
+;
+
+Select * from CUSTOMERS  
+Where first_name like 'Z%' 
+;
+
+Select * from CUSTOMERS  
+Where last_name like '%er' 
+;
+
+Select * from CUSTOMERS  
+Where last_name like '_u%' 
+;
+
+Select * from CUSTOMERS  
+Where first_name Not like 'A%' 
+;
+
+Select * from CUSTOMERS  
+Order by first_name Asc  
+;
+
+Select * from CUSTOMERS  
+Order by first_name Desc  
+;
+
+Select city,first_name,last_name from CUSTOMERS  
+order by city,first_name,last_name 
+;
+
+Select * from CUSTOMERS  
+order by 1,2 
+;
+
